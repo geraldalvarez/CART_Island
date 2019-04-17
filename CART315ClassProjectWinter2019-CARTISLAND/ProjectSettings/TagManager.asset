@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - pickupable
+  - Burning
+  - Small
+  - Large
+  - Medium
+  - PatrolPoints
+  - Ground
+  - Dome
+  - Boid
+  - ActivePlayer
+  - Projectile
+  - RedLED
+  - GreenLED
+  - BlueLED
+  - Battery
+  - Resistor
+  - Breaker
+  - Arduino
+  - waypoint1
+  - waypoint2
+  - waypoint3
+  - waypoint4
+  - waypoint5
+  - Diploma
+  - NPC
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - PostProcessing
+  - Player
+  - Enemy
+  - Dome
+  - Bubble
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
