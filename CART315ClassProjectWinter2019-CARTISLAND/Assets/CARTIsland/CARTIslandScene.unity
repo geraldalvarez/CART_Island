@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.16592908, g: 0.18086633, b: 0.19687721, a: 1}
+  m_IndirectSpecularColor: {r: 0.17737916, g: 0.19110689, b: 0.20614457, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -872,7 +872,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue:
-    name: A Cat
+    name: A Smart Cat
     sentences:
     - The semester is almost done.
     - And my arduino is also almost done.
@@ -979,7 +979,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue:
-    name: E Cat
+    name: A Suspicious Cat
     sentences:
     - Every Cat is guarding an arduino project.
     - 'I need to fix mine to pass the semester but I can''t leave it alone.  '
@@ -1272,7 +1272,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue:
-    name: A Cat
+    name: A Worrisome Cat
     sentences:
     - Thanks mate!
 --- !u!224 &381811620
@@ -1852,6 +1852,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: CatsoFatsoAnims-RED
       objectReference: {fileID: 0}
+    - target: {fileID: 3876566651827223015, guid: b473fbf5b3f1e214fa69155789fc2f25,
+        type: 3}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 429309105}
     - target: {fileID: 7075357153575162040, guid: b473fbf5b3f1e214fa69155789fc2f25,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1922,11 +1927,6 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 3876566651827223015, guid: b473fbf5b3f1e214fa69155789fc2f25,
-        type: 3}
-      propertyPath: canvas
-      value: 
-      objectReference: {fileID: 429309105}
     - target: {fileID: 5160475199791533886, guid: b473fbf5b3f1e214fa69155789fc2f25,
         type: 3}
       propertyPath: objectDialogue.Array.size
@@ -2002,7 +2002,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue:
-    name: A Cat
+    name: A Worrisome Cat
     sentences:
     - 'I''m so close. '
     - I just need a part to make it work and pass my sementer.
@@ -2056,7 +2056,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue:
-    name: A Cat
+    name: An Anxious Cat
     sentences:
     - Are you some kind of genius? Thank you!
 --- !u!224 &566016471
@@ -2349,8 +2349,8 @@ MonoBehaviour:
     - ' P key to pickup the item and L key to drop the item.'
     - Left Click and Drag to control the view.
     - Collect the necessary items to complete an Arduino Project.
-    - 'Items are LEDs, Battery, and Resistor. '
     - Blank components in the Arduino means it needs that.
+    - 'Items are LEDs, Battery, and Resistor. Pick and throw them in an arduino. '
     - Go, and work for that diploma!
 --- !u!224 &592266873
 RectTransform:
@@ -2401,7 +2401,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue:
-    name: E Cat
+    name: A Suspicious Cat
     sentences:
     - I wonder how is the other are doing? Thanks by the way.
 --- !u!224 &616309439
@@ -2598,6 +2598,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: CatsoFatsoAnims - Resistor
       objectReference: {fileID: 0}
+    - target: {fileID: 3876566651827223015, guid: b473fbf5b3f1e214fa69155789fc2f25,
+        type: 3}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 429309105}
     - target: {fileID: 7075357153575162040, guid: b473fbf5b3f1e214fa69155789fc2f25,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2668,11 +2673,6 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 3876566651827223015, guid: b473fbf5b3f1e214fa69155789fc2f25,
-        type: 3}
-      propertyPath: canvas
-      value: 
-      objectReference: {fileID: 429309105}
     - target: {fileID: 5160475199791533886, guid: b473fbf5b3f1e214fa69155789fc2f25,
         type: 3}
       propertyPath: objectDialogue.Array.size
@@ -3070,6 +3070,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: CatsoFatsoAnims - Battery
       objectReference: {fileID: 0}
+    - target: {fileID: 3876566651827223015, guid: b473fbf5b3f1e214fa69155789fc2f25,
+        type: 3}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 429309105}
     - target: {fileID: 7075357153575162040, guid: b473fbf5b3f1e214fa69155789fc2f25,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3140,11 +3145,6 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 3876566651827223015, guid: b473fbf5b3f1e214fa69155789fc2f25,
-        type: 3}
-      propertyPath: canvas
-      value: 
-      objectReference: {fileID: 429309105}
     - target: {fileID: 5160475199791533886, guid: b473fbf5b3f1e214fa69155789fc2f25,
         type: 3}
       propertyPath: objectDialogue.Array.size
@@ -3361,16 +3361,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2188992697628732134, guid: afa88dac10f42e146a0de71ec279d182,
-        type: 3}
-      propertyPath: canvas
-      value: 
-      objectReference: {fileID: 880627765}
-    - target: {fileID: 2188992697628732134, guid: afa88dac10f42e146a0de71ec279d182,
-        type: 3}
-      propertyPath: objectDialogue
-      value: 
-      objectReference: {fileID: 495118147}
     - target: {fileID: 0}
       propertyPath: nameText
       value: 
@@ -3383,6 +3373,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: smoltpot
       objectReference: {fileID: 0}
+    - target: {fileID: 2188992697628732134, guid: afa88dac10f42e146a0de71ec279d182,
+        type: 3}
+      propertyPath: objectDialogue.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2188992697628732134, guid: afa88dac10f42e146a0de71ec279d182,
+        type: 3}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 880627765}
+    - target: {fileID: 2188992697628732134, guid: afa88dac10f42e146a0de71ec279d182,
+        type: 3}
+      propertyPath: objectDialogue
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2188992697628732134, guid: afa88dac10f42e146a0de71ec279d182,
+        type: 3}
+      propertyPath: objectDialogue.Array.data[0]
+      value: 
+      objectReference: {fileID: 495118147}
     - target: {fileID: 1925186595, guid: afa88dac10f42e146a0de71ec279d182, type: 3}
       propertyPath: m_LocalPosition.x
       value: 105.67
@@ -3465,6 +3475,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: CatsoFatsoAnims -Blue
       objectReference: {fileID: 0}
+    - target: {fileID: 3876566651827223015, guid: b473fbf5b3f1e214fa69155789fc2f25,
+        type: 3}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 429309105}
     - target: {fileID: 7075357153575162040, guid: b473fbf5b3f1e214fa69155789fc2f25,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3535,11 +3550,6 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 3876566651827223015, guid: b473fbf5b3f1e214fa69155789fc2f25,
-        type: 3}
-      propertyPath: canvas
-      value: 
-      objectReference: {fileID: 429309105}
     - target: {fileID: 5160475199791533886, guid: b473fbf5b3f1e214fa69155789fc2f25,
         type: 3}
       propertyPath: objectDialogue.Array.size
@@ -5369,7 +5379,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue:
-    name: A Cat
+    name: A Sleepy Cat
     sentences:
     - Thanks! (The cat is relieved.)
 --- !u!224 &1447588320
@@ -6142,11 +6152,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue:
-    name: A Cat
+    name: A Sleepy Cat
     sentences:
-    - I will be dark soon. (It is dawn. The cat is lying.)
-    - I need the arduino fully working to survive the night. (The cat is sweating
-      from lying.)
+    - I will be dark soon. (It is dawn. The cat is tired.)
+    - I need the arduino fully working to survive the night. (The cat is talking metaphorically.)
     - If you help me, I'll give you a component. (The cat is pleading.)
 --- !u!224 &1646452960
 RectTransform:
@@ -6456,6 +6465,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: CatsoFatsoAnims-Stair
       objectReference: {fileID: 0}
+    - target: {fileID: 3876566651827223015, guid: b473fbf5b3f1e214fa69155789fc2f25,
+        type: 3}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 429309105}
     - target: {fileID: 7075357153575162040, guid: b473fbf5b3f1e214fa69155789fc2f25,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6526,11 +6540,6 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 3876566651827223015, guid: b473fbf5b3f1e214fa69155789fc2f25,
-        type: 3}
-      propertyPath: canvas
-      value: 
-      objectReference: {fileID: 429309105}
     - target: {fileID: 5160475199791533886, guid: b473fbf5b3f1e214fa69155789fc2f25,
         type: 3}
       propertyPath: objectDialogue.Array.size
@@ -7137,7 +7146,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue:
-    name: A Cat
+    name: An Anxious Cat
     sentences:
     - Ah, it was working a minute ago.
     - Hey, can you help me? I reaaaaaaalllly need this to work to past my semester.
@@ -7235,7 +7244,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue:
-    name: A Cat
+    name: A Smart Cat
     sentences:
     - There was no need for the help, but thanks anyway.
 --- !u!224 &1892297671
@@ -7529,6 +7538,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: CatsoFatsoAnims - Green
       objectReference: {fileID: 0}
+    - target: {fileID: 3876566651827223015, guid: b473fbf5b3f1e214fa69155789fc2f25,
+        type: 3}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 429309105}
     - target: {fileID: 7075357153575162040, guid: b473fbf5b3f1e214fa69155789fc2f25,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7599,11 +7613,6 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 3876566651827223015, guid: b473fbf5b3f1e214fa69155789fc2f25,
-        type: 3}
-      propertyPath: canvas
-      value: 
-      objectReference: {fileID: 429309105}
     - target: {fileID: 5160475199791533886, guid: b473fbf5b3f1e214fa69155789fc2f25,
         type: 3}
       propertyPath: objectDialogue.Array.size

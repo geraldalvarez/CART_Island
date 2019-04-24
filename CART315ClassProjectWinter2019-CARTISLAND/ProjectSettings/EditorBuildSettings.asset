@@ -8,4 +8,7 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/CARTIsland/CARTIslandScene.unity
+    guid: ecd36effd584a0f47b79ae94c0f38299
   m_configObjects: {}
