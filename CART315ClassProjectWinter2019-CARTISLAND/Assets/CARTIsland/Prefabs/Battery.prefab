@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 314732902893676087}
   - component: {fileID: 635418142197191889}
   - component: {fileID: 7169183963186856989}
-  - component: {fileID: 5040028515873761104}
+  - component: {fileID: 4889059842427644037}
   m_Layer: 0
   m_Name: Battery
   m_TagString: pickupable
@@ -172,15 +172,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8755d6a674d0b3947b36c90bd726e4d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &5040028515873761104
+--- !u!114 &4889059842427644037
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 952229012}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b1414cadfa23abd4cb590a8b4b286ae5, type: 3}
+  m_Script: {fileID: 11500000, guid: 12078b5ee7ab72a4fa24a17c422939bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

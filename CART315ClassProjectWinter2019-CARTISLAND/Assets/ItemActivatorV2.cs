@@ -9,7 +9,6 @@ public class ItemActivatorV2 : MonoBehaviour
     // Variables:
 
     [SerializeField]
-    
     private int distanceFromPlayer;
 
     private GameObject player;

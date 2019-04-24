@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 6338837351427506129}
   - component: {fileID: 5270591672314690004}
   - component: {fileID: 5600388019479673097}
-  - component: {fileID: 2697637554815042095}
+  - component: {fileID: 4114867148276850838}
   m_Layer: 0
   m_Name: GreenLED
   m_TagString: pickupable
@@ -172,15 +172,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8755d6a674d0b3947b36c90bd726e4d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &2697637554815042095
+--- !u!114 &4114867148276850838
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2827715933673166228}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b1414cadfa23abd4cb590a8b4b286ae5, type: 3}
+  m_Script: {fileID: 11500000, guid: 12078b5ee7ab72a4fa24a17c422939bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

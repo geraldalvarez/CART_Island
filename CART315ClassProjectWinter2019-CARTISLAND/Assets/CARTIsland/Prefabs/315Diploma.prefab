@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 361583737348253366}
   - component: {fileID: 8345089107921633035}
   - component: {fileID: 695138140879962748}
-  - component: {fileID: 4311090551253169279}
+  - component: {fileID: 1762052478964618181}
   m_Layer: 0
   m_Name: 315Diploma
   m_TagString: pickupable
@@ -129,15 +129,15 @@ MonoBehaviour:
   explosionRadius: 4
   explosionUpward: 0.4
   removeDelay: 3
---- !u!114 &4311090551253169279
+--- !u!114 &1762052478964618181
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1718774002}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b1414cadfa23abd4cb590a8b4b286ae5, type: 3}
+  m_Script: {fileID: 11500000, guid: 12078b5ee7ab72a4fa24a17c422939bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

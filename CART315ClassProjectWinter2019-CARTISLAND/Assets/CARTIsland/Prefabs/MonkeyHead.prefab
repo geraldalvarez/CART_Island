@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 61381321}
   - component: {fileID: 61381326}
   - component: {fileID: 61381325}
-  - component: {fileID: 8276009522812283279}
+  - component: {fileID: 1787068189307068460}
   m_Layer: 0
   m_Name: MonkeyHead
   m_TagString: Untagged
@@ -130,15 +130,15 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: ace14ea57737fa04bba0fd5866168fa6, type: 3}
---- !u!114 &8276009522812283279
+--- !u!114 &1787068189307068460
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 61381320}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b1414cadfa23abd4cb590a8b4b286ae5, type: 3}
+  m_Script: {fileID: 11500000, guid: 12078b5ee7ab72a4fa24a17c422939bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

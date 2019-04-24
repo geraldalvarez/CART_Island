@@ -116,6 +116,11 @@ public class Restore : MonoBehaviour
         }
     }
 
+    public bool isChallengeDone()
+    {
+        return (!isRedLED && !isBLueLED && !isGreenLED && !isBattery && !isResistor);
+    }
+
     private void OnCollisionEnter(Collision collision)
     {
 

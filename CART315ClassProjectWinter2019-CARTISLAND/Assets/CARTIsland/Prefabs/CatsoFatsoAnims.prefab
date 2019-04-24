@@ -511,7 +511,10 @@ GameObject:
   m_Component:
   - component: {fileID: 7075357153575162040}
   - component: {fileID: 3240824188417447443}
-  - component: {fileID: 3931853257531897574}
+  - component: {fileID: 6223489341315123906}
+  - component: {fileID: 5349962253022522437}
+  - component: {fileID: 3876566651827223015}
+  - component: {fileID: 5160475199791533886}
   m_Layer: 0
   m_Name: CatsoFatsoAnims
   m_TagString: Untagged
@@ -569,7 +572,32 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &3931853257531897574
+--- !u!114 &6223489341315123906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2946542933706547648}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12078b5ee7ab72a4fa24a17c422939bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &5349962253022522437
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2946542933706547648}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.28, y: 0.44, z: 0.58}
+  m_Center: {x: 0, y: 0.21, z: 0}
+--- !u!114 &3876566651827223015
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -578,9 +606,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 2946542933706547648}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b1414cadfa23abd4cb590a8b4b286ae5, type: 3}
+  m_Script: {fileID: 11500000, guid: b033cc3cf21abce48825b12d779d5120, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  canvas: {fileID: 0}
+--- !u!114 &5160475199791533886
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2946542933706547648}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b335db7da7be771469dca25f2b22af3e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectDialogue: {fileID: 0}
+  canvas: {fileID: 0}
 --- !u!1 &3146602831145355027
 GameObject:
   m_ObjectHideFlags: 0

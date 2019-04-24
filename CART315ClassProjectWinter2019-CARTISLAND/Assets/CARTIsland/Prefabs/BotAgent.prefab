@@ -165,7 +165,7 @@ GameObject:
   - component: {fileID: 5913096518278269776}
   - component: {fileID: 2001382707145065790}
   - component: {fileID: 7057914205150337318}
-  - component: {fileID: 9101006144034874018}
+  - component: {fileID: 1589820976983872704}
   m_Layer: 0
   m_Name: BotAgent
   m_TagString: Untagged
@@ -231,16 +231,16 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &9101006144034874018
+--- !u!114 &1589820976983872704
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1283499071556510562}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b1414cadfa23abd4cb590a8b4b286ae5, type: 3}
+  m_Script: {fileID: 11500000, guid: 12078b5ee7ab72a4fa24a17c422939bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &2501589822412293366

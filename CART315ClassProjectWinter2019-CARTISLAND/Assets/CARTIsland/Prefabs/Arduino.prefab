@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 9079567366437561329}
   - component: {fileID: 5026803475815627017}
   - component: {fileID: 2812861993511594661}
-  - component: {fileID: 7508228338831373205}
+  - component: {fileID: 3402804288685367291}
   m_Layer: 0
   m_Name: Arduino
   m_TagString: Untagged
@@ -159,15 +159,15 @@ MonoBehaviour:
   materialArray:
   - {fileID: 2100000, guid: ce912139265b0204f894d0d55a3d8215, type: 2}
   - {fileID: 2100000, guid: 3014bb29476dcde4aa275e47c8b7500c, type: 2}
---- !u!114 &7508228338831373205
+--- !u!114 &3402804288685367291
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1063760654}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b1414cadfa23abd4cb590a8b4b286ae5, type: 3}
+  m_Script: {fileID: 11500000, guid: 12078b5ee7ab72a4fa24a17c422939bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
