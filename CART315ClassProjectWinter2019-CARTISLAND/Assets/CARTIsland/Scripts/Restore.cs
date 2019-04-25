@@ -90,6 +90,7 @@ public class Restore : MonoBehaviour
             if(objective == "gravity")
             {
                 triggerGameObject.GetComponent<Rigidbody>().useGravity = true;
+                triggerGameObject.GetComponent<Rigidbody>().isKinematic = false;
             }
 
             if(objective == "trigger")
